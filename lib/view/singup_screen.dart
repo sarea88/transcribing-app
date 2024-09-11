@@ -22,7 +22,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
   final TextEditingController phoneCtrl = TextEditingController();
   final TextEditingController passwordCtrl = TextEditingController();
   final TextEditingController confirmPasswordCtrl = TextEditingController();
-  // bool isMale = false;
   GlobalKey<FormState> key = GlobalKey<FormState>();
 
   @override
@@ -44,9 +43,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
           );
         });
       } else if (state is FaildregesturState) {
-        // ScaffoldMessenger.of(context).showSnackBar(
-        //         SnackBar(content: Text('حصل خطأ ما أعد المحاولة ')),
-        //       );
       } else if (state is ProcessingregesturState) {
         return const SafeArea(
           child: Scaffold(

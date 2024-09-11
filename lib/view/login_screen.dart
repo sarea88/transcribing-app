@@ -162,24 +162,6 @@ class _LoginScreenState extends State<LoginScreen> {
                                   ],
                                 ),
                               ),
-                              // Align(
-                              // alignment: Alignment.bottomCenter,
-                              // child :Row(
-                              //   mainAxisAlignment: MainAxisAlignment.center,
-                              //   children: [
-                              //   TextButton(
-                              //     onPressed: () {
-                              //       Navigator.push(
-                              //         context,
-                              //         MaterialPageRoute(
-                              //           builder: (context) => MainScreen(),
-                              //         ),
-                              //       );
-                              //     },
-                              //     child: Text('ضيف'),
-                              //   ),
-                              //   const Text("يمكنك الدخول "),
-                              // ]))
                             ],
                           ),
                         ),

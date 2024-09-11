@@ -9,7 +9,6 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          // backgroundColor: Colors.purple,
         ),
         body: SingleChildScrollView(
           child: Column(
@@ -26,13 +25,6 @@ class SplashScreen extends StatelessWidget {
                       },
                       child: const Text("ابدء"))
                 ]),
-              // ElevatedButton(
-              //   onPressed: () {
-              //     Navigator.push(context,
-              //         MaterialPageRoute(builder: (context) => const MyStatefulWidget()));
-              //   },
-              //   child: const Text('Go to Stateful Widget Screen'),
-              // ),
             ],
           ),
         ));

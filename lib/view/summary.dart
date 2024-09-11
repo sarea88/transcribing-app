@@ -188,14 +188,6 @@ class _SummaryScreenState extends State<SummaryScreen>{
                   },
                 ),
                 ),
-            // Align(
-            //     alignment: Alignment.centerRight,
-            //     child: FilledButton(
-            //       onPressed: () {},
-            //       child: const Text(
-            //         "Save",
-            //       ),
-            //     )),
           ],
         ),
       ),

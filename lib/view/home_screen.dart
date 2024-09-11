@@ -25,9 +25,9 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     isEdit = false;
     textController = TextEditingController();
-    inputText = "With this widget you can create a customizable canvas in which you can zoom in flutter."
-        "It is possible to customize virtually all the canvases of the canvas such as color, background color, acitvate and deactivate scrolls, change the color of scrolls, modify the sensitivity of the zoom, the initial zoom enters other aspects found in the construction of the Zoom class."
-        "You only need to create an instance of the Zoom class in the child of your Scaffold or within the widget of your choice, within the child attribute, put the widget that you want to zoom in and the width and height of the canvas where it will be made zoom.";
+    // inputText = "With this widget you can create a customizable canvas in which you can zoom in flutter."
+    //     "It is possible to customize virtually all the canvases of the canvas such as color, background color, acitvate and deactivate scrolls, change the color of scrolls, modify the sensitivity of the zoom, the initial zoom enters other aspects found in the construction of the Zoom class."
+    //     "You only need to create an instance of the Zoom class in the child of your Scaffold or within the widget of your choice, within the child attribute, put the widget that you want to zoom in and the width and height of the canvas where it will be made zoom.";
     super.initState();
   }
 
