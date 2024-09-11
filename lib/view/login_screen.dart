@@ -2,7 +2,7 @@ import 'package:audio_transcription_app/bloc/user_bloc/userbloc.dart';
 import 'package:audio_transcription_app/bloc/user_bloc/userevent.dart';
 import 'package:audio_transcription_app/bloc/user_bloc/userstate.dart';
 import 'package:audio_transcription_app/modle/usermodle.dart';
-import 'package:audio_transcription_app/view/main_screen.dart';
+// import 'package:audio_transcription_app/view/main_screen.dart';
 import 'package:audio_transcription_app/view/singup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
